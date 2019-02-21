@@ -12,7 +12,10 @@ import {
 } from 'react-native';
 import HeaderTab from './headerTab'
 
-export default class RootPage extends React.Component {
+interface IProps {
+    data: any;
+}
+export default class RootPage extends React.Component<IProps> {
     render() {
         console.log('render RootPage')
         return (
