@@ -8,6 +8,9 @@
     "ios": "react-native run-ios"
   },
   "dependencies": {
+    "@types/react": "^16.8.4",
+    "@types/react-native": "^0.57.37",
+    "@types/react-navigation": "^3.0.3",
     "react": "16.6.3",
     "react-native": "0.58.5"
   },
